@@ -27,7 +27,16 @@ namespace MM.WebApi
                       "~/Scripts/templates.js",
                       "~/Scripts/MastermindView.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/bower_components").Include(
+                    "~/Scripts/bower_components/jquery/jquery.js",
+                    "~/Scripts/bower_components/jquery-ui/jquery-ui.min.js",
+                    "~/Scripts/bower_components/jquery-validation/dist/jquery.validate.min.js",
+                    "~/Scripts/bower_components/jquery-validation/dist/additional-methods.min.js",
+                    "~/Scripts/bower_components/underscore/underscore.js",
+                    "~/Scripts/bower_components/backbone/backbone.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/styles/styles.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
