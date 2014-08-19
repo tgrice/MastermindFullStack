@@ -20,6 +20,13 @@ namespace MM.WebApi
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/mastermind").Include(
+                      "~/Scripts/app.js",
+                      "~/Scripts/codeGenerator.js",
+                      "~/Scripts/game.js",
+                      "~/Scripts/templates.js",
+                      "~/Scripts/MastermindView.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
