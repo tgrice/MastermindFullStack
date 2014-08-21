@@ -101,6 +101,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MM.Core.Test\MM.Core.Test.csproj">
+      <Project>{2fd91f83-f118-4289-81cc-dd4142db8fff}</Project>
+      <Name>MM.Core.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MM.Core\MM.Core.csproj">
+      <Project>{c4b4e959-00d1-4337-a50b-d3d2bf85a29d}</Project>
+      <Name>MM.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MM.WebApi\MM.WebApi.csproj">
       <Project>{0615EAE8-FF3D-4F1B-A4C0-C9AEC0D7752F}</Project>
       <Name>MM.WebApi</Name>
