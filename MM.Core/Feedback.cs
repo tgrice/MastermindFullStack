@@ -29,7 +29,10 @@ namespace MM.Core
                         testCode[n] = 'Y';
                     } 
                 }
-                
+            }
+            if (guess == code)
+            {
+                response = "Victory!";
             }
             return response;
         }

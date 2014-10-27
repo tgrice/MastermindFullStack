@@ -21,10 +21,17 @@ namespace MM.WebApi
                       "~/Scripts/respond.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/mastermind").Include(
+                      "~/Scripts/CreateGame.js",
+                      "~/Scripts/Board.js",
                       "~/Scripts/app.js",
                       "~/Scripts/codeGenerator.js",
                       "~/Scripts/game.js",
+                      "~/Scripts/Validate.js",
                       "~/Scripts/templates.js",
+                      "~/Scripts/Mastermind_Template_View.js",
+                      "~/Scripts/GameSetupView.js",
+                      "~/Scripts/BoardView.js",
+                      "~/Scripts/GuessInputView.js",
                       "~/Scripts/MastermindView.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/bower_components").Include(
@@ -36,9 +43,7 @@ namespace MM.WebApi
                     "~/Scripts/bower_components/backbone/backbone.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/styles/styles.css",
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/app/styles/styles.css"));
         }
     }
 }

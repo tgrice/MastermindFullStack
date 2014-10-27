@@ -41,6 +41,9 @@
   <ItemGroup>
     <Compile Include="CodeGenerator.cs" />
     <Compile Include="Feedback.cs" />
+    <Compile Include="GameServer.cs" />
+    <Compile Include="ICodeGenerator.cs" />
+    <Compile Include="MasterMindGameDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
